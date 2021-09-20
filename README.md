@@ -18,9 +18,9 @@ I have used Flask framework to built web app.
 
 <hr>
 
-![home](https://user-images.githubusercontent.com/61036755/82662120-ee6f3580-9c4a-11ea-9d17-9730bf485f17.png)
-![kad](https://user-images.githubusercontent.com/61036755/82662141-f7600700-9c4a-11ea-903d-d39b2d57c091.png)
-![nbd](https://user-images.githubusercontent.com/61036755/82662166-00e96f00-9c4b-11ea-9f5e-1a5ac3486463.png)
+![home](https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/2.jpeg?alt=media&token=ba3bf33f-8c70-49f8-ab08-ba1e7901b32c)
+![kad](https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/3.jpeg?alt=media&token=df3aa448-8e7b-421c-bf8c-c7e4ac44c094)
+![nbd](https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/4.jpeg?alt=media&token=93c21887-1d5a-4f61-852c-51ca0d8e0c8b)
 
 <hr>
 
