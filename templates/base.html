@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#000" />
+    <title>Infamous Films</title>
+    <link rel="stylesheet" type="text/css" href="https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/bootstrap.css?alt=media&token=7d0aa7be-c31a-495a-9eea-65bac56e0991" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css"/>
+    <link
+      rel="manifest"
+      href="_manifest.json"
+      da  ta-pwa-version="set_in_manifest_and_pwa_js"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/logo.PNG?alt=media&token=07ff21fc-6876-419a-8cf7-b12769e70d1a"
+    />
+  </head>
+  <body class="theme-light" data-highlight="highlight-red" data-gradient="body-default">
+   
+    <div id="page">
+      <div class="header header-fixed header-logo-center">
+      <br>
+      
+        <a href="{{url_for('home')}}" class="header-title"><img src ="https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/logo.png?alt=media&token=e5dcf238-0766-45c1-9683-14a9ba3e5f33" height="60px"></a>
+        </div>
+    <div id="page">
+      <div id="footer-bar" class="footer-bar-1">
+        
+      </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="screen1">
+                   
+    
+     <div class="card card-style">
+      <div class="content mb-0">
+      <h2 class="mb-0">Welcome to Infamous Films</h2>
+      <p class="mb-4">
+      Enter a Hollywood Movie and let us suggest a few for you!
+      </p>
+        {% block content %}
+        {% endblock %}
+      </div>
+      </div>
+      <div class="card card-style">
+                      
+                      </div>
+    </div>
+      </div>
+      </div>
+      
+</div>
+
+    <script type="text/javascript" src="https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/bootstrap.min.js?alt=media&token=a147591f-f126-46eb-991f-7c90057235d1"></script>
+    
+  
+  </body>
+</html>

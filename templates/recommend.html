@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+  {% if t=='s' %}
+  
+    <h3  style="color:#000";>Sorry! This movie is not in our database.</h3>
+    <br>
+  {% else %}
+  
+    <h3  style="color:#000">"{{movie}}" is a great choice.</h3>
+    <h3  style="color:#000">Here are some movies like this</h3>
+
+
+    <ul class="list-group list-group-flush">
+      {% for m in r %}
+        <li class="list-group-item" style="color:rgb(0, 179, 0)"><strong>{{m|capitalize}}</strong></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+{% endblock %}

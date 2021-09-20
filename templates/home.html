@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+  <form action="{{url_for('recommend')}}">
+    <input type="text" name="movie" class="form-control" placeholder="Movie name here">
+    <br>
+    <input type="submit" class="btn btn-info" value="Enter" style="background:#f04f1f; color:#fff; border-radius:20px; font-size:24px;">
+  </form>
+  <br>
+  <br>
+{% endblock %}
