@@ -17,11 +17,11 @@ I have used Flask framework to built web app.
 *The application is run from the main.py file.
 
 <hr>
-# Methodology:
+<h1>Methodology:</h1>
 <p>I implemented the system using machine learning and cluster analysis based on a hybrid recommendation approach. The system takes in the users’ personal information and predicts their movie preferences using well-trained support vector machine (SVM) models. Based on the SVM prediction it selects movies from the dataset, clusters the movies and generates questions to the users. Based on the users’ answers, it refines its movie set and it finally recommends movies for the users. In the process we traverse the parameter space, thus enabling the customizability of the system.</p>
   <img src = "https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/1.jpeg?alt=media&token=e730f203-39d8-4ed2-bdb6-ddb534c107c2">
 <hr>
-# Screenshots:
+<h1>Screenshots: </h1>
 <h2>Home Screen</h2>
 <p>This is the first screen you see when you open the link</p>
 <img src ="https://firebasestorage.googleapis.com/v0/b/bikengo-b86b3.appspot.com/o/2.jpeg?alt=media&token=ba3bf33f-8c70-49f8-ab08-ba1e7901b32c">
